@@ -12,8 +12,7 @@ RUN apt-get update -qq \
     zlib1g-dev \
   && apt-get clean
 
-RUN pecl install \
-    mongodb \
+RUN pecl install mongodb \
   && docker-php-ext-enable \
     mongodb \
   && docker-php-ext-install \
