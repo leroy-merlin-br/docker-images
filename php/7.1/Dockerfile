@@ -19,7 +19,7 @@ RUN pecl install mongodb \
     pcntl \
     zip
 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 ARG UID=1000
 ARG GID=1000
