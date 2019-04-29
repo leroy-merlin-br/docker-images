@@ -35,7 +35,7 @@ RUN sed -ri -e 's!user = www-data!; user = www-data!g' /usr/local/etc/php-fpm.d/
 
 # forward request and error logs to docker log collector
 RUN ln -sf /dev/stdout /var/log/nginx/access.log \
-	&& ln -sf /dev/stderr /var/log/nginx/error.log
+  && ln -sf /dev/stderr /var/log/nginx/error.log
 
 ARG UID=1000
 ARG GID=1000
