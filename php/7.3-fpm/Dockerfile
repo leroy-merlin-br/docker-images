@@ -32,9 +32,6 @@ ARG GID=1000
 RUN groupmod -g ${GID} www-data \
   && usermod -u ${UID} -g www-data www-data \
   && mkdir -p /var/www/html \
-    /var/run/nginx \
-    /var/run/supervisor \
-    /var/log/supervisor \
   && chown -hR www-data:www-data \
     /var/www \
     /usr/local/
