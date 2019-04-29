@@ -3,6 +3,7 @@ LABEL maintainer="boitata@leroymerlin.com.br"
 
 # libssl-dev: required by mongodb
 # zlib1g-dev: required by zip
+# libcap2-bin: required by setcap
 RUN apt-get update -qq \
   && apt-get install -qq --no-install-recommends \
     git \
