@@ -1,7 +1,8 @@
-FROM php:7.1-apache-stretch
+FROM php:7.3-apache-stretch
 LABEL maintainer="boitata@leroymerlin.com.br"
 
 # libssl-dev: required by mongodb
+# libzip-dev: required by zip
 # zlib1g-dev: required by zip
 # libcap2-bin: required by setcap
 RUN apt-get update -qq \
@@ -9,6 +10,7 @@ RUN apt-get update -qq \
     git \
     zip \
     unzip \
+    libzip-dev \
     libssl-dev \
     zlib1g-dev \
     libcap2-bin \
