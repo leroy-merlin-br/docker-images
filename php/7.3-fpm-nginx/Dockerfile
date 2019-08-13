@@ -19,12 +19,15 @@ RUN apt-get update -qq \
     libcap2-bin \
  && apt-get clean
 
-RUN pecl install mongodb \
+RUN pecl install \
+    mongodb \
+    xdebug \
   && docker-php-ext-enable \
     mongodb \
   && docker-php-ext-install \
     pcntl \
-    zip
+    zip \
+  && rm -rf /tmp/*
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
