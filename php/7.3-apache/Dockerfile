@@ -16,9 +16,8 @@ RUN apt-get update -qq \
     libcap2-bin \
   && apt-get clean
 
-RUN pecl install \
-    mongodb \
-    xdebug \
+RUN pecl install mongodb \
+  && pecl install xdebug \
   && docker-php-ext-enable \
     mongodb \
   && docker-php-ext-install \
