@@ -2,10 +2,14 @@
 
 ## PHP
 ### Supported tags and respective `Dockerfile` links
--	[`7.3`, `latest` (*php/7.3/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3/Dockerfile)
--	[`7.3-apache`, `apache` (*php/7.3-apache/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-apache/Dockerfile)
--	[`7.3-fpm`, `fpm` (*php/7.3-fpm/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-fpm/Dockerfile)
--	[`7.3-fpm-nginx`, `fpm-nginx` (*php/7.3-fpm-nginx/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-fpm-nginx/Dockerfile)
+-	[`7.4`, `latest` (*php/7.4/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.4/Dockerfile)
+-	[`7.4-apache`, `apache` (*php/7.4-apache/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.4-apache/Dockerfile)
+-	[`7.4-fpm`, `fpm` (*php/7.4-fpm/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.4-fpm/Dockerfile)
+-	[`7.4-fpm-nginx`, `fpm-nginx` (*php/7.4-fpm-nginx/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.4-fpm-nginx/Dockerfile)
+-	[`7.3` (*php/7.3/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3/Dockerfile)
+-	[`7.3-apache` (*php/7.3-apache/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-apache/Dockerfile)
+-	[`7.3-fpm` (*php/7.3-fpm/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-fpm/Dockerfile)
+-	[`7.3-fpm-nginx` (*php/7.3-fpm-nginx/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-fpm-nginx/Dockerfile)
 -	[`7.2` (*php/7.2/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.2/Dockerfile)
 -	[`7.2-apache` (*php/7.2-apache/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.2-apache/Dockerfile)
 -	[`7.2-fpm` (*php/7.2-fpm/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.2-fpm/Dockerfile)
