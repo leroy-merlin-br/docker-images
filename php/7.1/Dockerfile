@@ -13,7 +13,7 @@ RUN apt-get update -qq \
   && apt-get clean
 
 RUN pecl install mongodb \
-  && pecl install xdebug \
+  && pecl install -f xdebug-2.9.8 \
   && docker-php-ext-enable \
     mongodb \
   && docker-php-ext-install \
