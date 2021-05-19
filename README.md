@@ -1,5 +1,10 @@
 # Leroy Merlin Brasil - Docker Images
 
+# Deprecation notice
+THIS REPOSITORY AND IMAGES WILL BE DEPRECATED ON AUGUST 2021.
+THE TEAM WILL KEEP SUPPORTING PHP CUSTOM IMAGES IN DOCKER HUB BUT IN A PRIVATE REPOSITORY.
+
+---
 ## PHP
 ### Supported tags and respective `Dockerfile` links
 -	[`7.4`, `latest` (*php/7.4/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.4/Dockerfile)
@@ -10,14 +15,6 @@
 -	[`7.3-apache` (*php/7.3-apache/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-apache/Dockerfile)
 -	[`7.3-fpm` (*php/7.3-fpm/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-fpm/Dockerfile)
 -	[`7.3-fpm-nginx` (*php/7.3-fpm-nginx/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.3-fpm-nginx/Dockerfile)
--	[`7.2` (*php/7.2/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.2/Dockerfile)
--	[`7.2-apache` (*php/7.2-apache/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.2-apache/Dockerfile)
--	[`7.2-fpm` (*php/7.2-fpm/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.2-fpm/Dockerfile)
--	[`7.2-fpm-nginx` (*php/7.2-fpm-nginx/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.2-fpm-nginx/Dockerfile)
--	[`7.1` (*php/7.1/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.1/Dockerfile)
--	[`7.1-apache` (*php/7.1-apache/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.1-apache/Dockerfile)
--	[`7.1-fpm` (*php/7.1-fpm/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.1-fpm/Dockerfile)
--	[`7.1-fpm-nginx` (*php/7.1-fpm-nginx/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.1-fpm-nginx/Dockerfile)
 
 ### How to use this image
 
