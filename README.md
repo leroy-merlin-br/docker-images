@@ -1,10 +1,5 @@
 # Leroy Merlin Brasil - Docker Images
 
-# Deprecation notice
-THIS REPOSITORY AND IMAGES WILL BE DEPRECATED ON AUGUST 2021.
-THE TEAM WILL KEEP SUPPORTING PHP CUSTOM IMAGES IN DOCKER HUB BUT IN A PRIVATE REPOSITORY.
-
----
 ## PHP
 ### Supported tags and respective `Dockerfile` links
 -	[`7.4`, `latest` (*php/7.4/Dockerfile*)](https://github.com/leroy-merlin-br/docker-images/blob/master/php/7.4/Dockerfile)
@@ -56,7 +51,7 @@ ENV APACHE_DOCUMENT_ROOT /path/to/new/root
 ```
 (The `env` can then be modified at container runtime as well.)
 
-# License
+## License
 
 View [PHP license information](http://php.net/license/) for the software contained in this image.
 
@@ -65,3 +60,8 @@ As with all Docker images, these likely also contain other software which may be
 The PHP images are based on [official PHP docker image](https://hub.docker.com/_/php).
 
 This repository is licensed under [MIT](LICENSE).
+
+
+## Deprecation notice
+THIS REPOSITORY AND IMAGES WILL BE DEPRECATED ON AUGUST 2021.
+THE TEAM WILL KEEP SUPPORTING PHP CUSTOM IMAGES IN DOCKER HUB BUT IN A PRIVATE REPOSITORY.
